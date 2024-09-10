@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <!-- מיכל האימיילים -->
+    <div class="main">
+
+        <!-- הודעת אימייל לדוגמא -->
+        <!-- <div class="email">
+            <div class="header">
+                <p class="showEmail">✉️Open</p>
+                <p class="closeEmail">❌Delete</p>         
+            </div>
+            <div class="emailBody">
+                <h3>From: lore kkk</h3>
+                <h3>Subject: kdjfsdkjfh sv</h3>
+                <p>Message: dsfjhs uhfia iudsfaiu gdsdcg sdfjh digfau dshjh ydsfgsy jdfhg dfg sdifgs idgf sgi gidfg iysdgf isgf iydgfs yudg </p>
+            </div>
+        </div> -->
+
+
+
+    </div>
+    <!-- מיכל התפריט -->
+    <nav class="nav">
+        <div class="incoming" id="incoming">
+            <p>incoming mail</p>
+        </div>
+        <div class="outing" id="outing">
+            <p>Outgoing mail</p>
+        </div>
+        <div class="settings" id="settings">
+            <p>Settings</p>
+        </div>
+    </nav>
+
+
+</div>
+        <!-- חלון לכתיבת אימייל חדש -->
+        <div class="sendEmail">
+            <div class="header">
+                <p id="closeSendWindow">❌Close</p>
+            </div>
+            <div class="context">
+                <label for="email address">To</label>
+                <input type="email" id="address">
+                <label for="message title">Subject</label>
+                <input type="text" id="title">
+                <label for="message text">Message</label>
+                <textarea id="textMessage" rows="5"></textarea>
+            </div>
+            <div id="confirmSend">
+                <p>✅Send</p>
+            </div>
+        </div>
+        <!-- שליחת אימייל חדש -->
+        <div id="newEmail">
+            <h2>➕</p>
+        </div>
+</body>
+
+</html>
