@@ -331,3 +331,5 @@ console.log(NEW_EMAIL)
     updateEmailDisplay();
     closeSendWindow(); 
 });
+
+ShowIncomingEmail(EMAILS);
